@@ -52,7 +52,7 @@
 			</div>
 			<div class="card-body">
 				<h5 class="card-title">XML-RPC</h5>
-				<p class="card-text">ผู้พัฒนาได้สร้างไฟล์ไว้ให้เรียกใช้งานฟังก์ชันโดยสะดวก โดยจะต้องเรียกใช้ด้วยคำสั่งดังนี้
+				<p class="card-text">นำโค้ดด้านล่างนี้ไว้ส่วนบนสุดของไฟล์
 					<div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #75715e">&lt;?php</span><br><span style="color: #75715e">// Configuration, please do not edit if you do not understand the system.</span><br><span style="color: #66d9ef">use</span> <span style="color: #a6e22e">EKAPHONG\XML_RPC</span><span style="color: #f8f8f2">;</span><br><span style="color: #66d9ef">require_once</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">__DIR__</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&#39;/class/XML_RPC.php&#39;</span><span style="color: #f8f8f2">);</span><br><span style="color: #66d9ef">require_once</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">__DIR__</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&#39;/config/config.php&#39;</span><span style="color: #f8f8f2">);</span><br><span style="color: #f8f8f2">$xmlrpc</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #a6e22e">XML_RPC</span><span style="color: #f8f8f2">();</span><br><span style="color: #75715e">// End of configuration</span></pre></div>
 				</p>
 			</div>
@@ -96,7 +96,7 @@
 
 	<div class="container-fluid mt-3" style="background-color: #666;">
 		<div class="container" style="color: white; padding-bottom: 25px; padding-top: 25px;">
-			© <?php echo(date("Y")); ?>&nbsp;&nbsp;|&nbsp;&nbsp;EKAPHONG TANGTRAKUL <a href="https://m.me/t.ekaphong" target="_blank"><img src="https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico" style="width: 18px;"></a> <a href="https://github.com/EKAPHONG/XML-RPC-Service" target="_blank"><img src="https://github.githubassets.com/favicon.ico" style="width: 18px; fill: white;"></a>
+			© <?php echo(date("Y")); ?> | EKAPHONG TANGTRAKUL <a href="https://m.me/t.ekaphong" target="_blank"><img src="https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico" style="width: 20px;"></a> <a href="https://github.com/EKAPHONG/XML-RPC-Service" target="_blank"><img src="https://github.githubassets.com/favicon.ico" style="width: 16px; fill: white;"></a>
 		</div>
 	</div>
 	<!-- Optional JavaScript -->
