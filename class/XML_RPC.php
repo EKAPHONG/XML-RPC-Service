@@ -59,7 +59,7 @@ class XML_RPC {
 
 	public function getUserByOid($server, $app_id, $secret, $oid) {
 		{
-			$request = xmlrpc_encode_request("getUserByOid", array($app_id, $secret, $uid));
+			$request = xmlrpc_encode_request("getUserByOid", array($app_id, $secret, $oid));
 			$context = stream_context_create(array('http' => array(
 				'method' => "POST",
 				'header' => "Content-Type: text/xml",
