@@ -50,5 +50,5 @@
 | `getEncrypt()`   |         **Work!**          |
 | `getDecrypt()`   |         **Work!**          |
 | `getUser()`      |             -              |
-| `getOid()`       |             -              |
-| `getUserByOid()` |             -              |
+| `getOid()`       |         **Work!**          |
+| `getUserByOid()` |         **Work!**          |
