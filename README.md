@@ -3,13 +3,15 @@
 ![](https://img.shields.io/badge/PHP-7.2.4-blue.svg) ![](https://img.shields.io/badge/PHP-xmlrpc-blue.svg)
 ![](https://lh3.googleusercontent.com/jK-YAtCsR9TyBNlfqfIqe2gHKeSWbX2yNraRPBvggQ6OluSgbjIaKcfzYp6vzU-bT6UCrLSiG4NLQYcXSbdiuGNCyP47fHoe9JcU0pyAqTmIgx171HXHYjYihs7oFWWVsm_CpNQ3CcjaBv2ADV7sJsYOhA-SX2cAywSolqyJHZ_1gEL63IIE-74frbvdwNk5L-WVZRRQD-QQz4N2VUt2-gbwJ6atxPAyckkfiEmmZIWkO4Tq7YVHfQCp5-ZmO-CEresiSQvol4d8wtKUcY-EPej2Ooc9Wl7WlaF_BWuLliJltDE0m48F7uc5qzWi_z2z1oey4Psfqkch1V0F4LbTIDQcU7I4cC2-ZaJe81v0fA2puwJMSSE9Eb1msIzdO97xL3tiPux1aMwU9uUi9MprDVHLxAUsL5lAG8Pdfv31YiySq2qiu_Y2Aew5AtJ30RUDb61_FvjUz5U26DMK-up_3gk93QVe4K_9zC_2CTNXtJdIbGyT_Mj8WvHfhdoiUunBAHAUDPuVES7c5FOpsH4sRg6FG2wDzenkskS26mjs_jZWS5HnGM3jpPWK9K2VVi80T5hnRcBppGRU9aHsY2Q2iM_FUVgo_OYJrg=w1920-h902)
 
-### คุณสมบัติ
+### คุณสมบัติ / ฟังก์ชัน
 
 - บริการเข้ารหัสข้อมูล
 - บริการถอดรหัสข้อมูล
 - เรียกดูข้อมูลบัญชีผู้ใช้อินเทอร์เน็ต ตาม uid
 - เรียกดูรหัสอ้างอิง Object ID ของบัญชีผู้ใช้อินเทอร์เน็ต ตาม uid
 - เรียกดูข้อมูลบัญชีผู้ใช้อินเทอร์เน็ต ตาม Object ID
+- แปลง Object ให้อยู่ในรูปแบบ Array
+- แปลงรูปแบบเวลาของภาษา Python ให้อยู่ในรูปแบบ date("Y-m-d H:i:s") ของภาษา PHP
 
 ### Method
 - getEncrypt
@@ -52,3 +54,5 @@
 | `getUser()`      |             -              |
 | `getOid()`       |         **Work!**          |
 | `getUserByOid()` |         **Work!**          |
+| `ObjectToArray()`|         **Work!**          |
+| `convertTime()`  |         **Work!**          |
