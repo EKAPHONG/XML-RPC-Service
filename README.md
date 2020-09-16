@@ -54,5 +54,3 @@
 | `getUser()`      |             -              |
 | `getOid()`       |         **Work!**          |
 | `getUserByOid()` |         **Work!**          |
-| `ObjectToArray()`|         **Work!**          |
-| `convertTime()`  |         **Work!**          |
